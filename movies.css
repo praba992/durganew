@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+h1{ 
+    text-align: center;
+    background-color:dodgerblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10pxs;
+    border-radius: 4px;
+
+}
+.movi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+}
+img{
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 black;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 123, 198);
+
+}
+p b{
+    text-decoration: underline;
+}
+button{
+    align-items: center;
+    width: 100px;
+    background-color: rgb(107, 105, 105);
+    border: 2px white solid;
+    border-radius: 4px;
+}
+iframe{
+    margin:60px;
+}

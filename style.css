@@ -1,0 +1,62 @@
+img{
+    border-radius:502px solid rgb(48, 45, 45);
+    cursor: pointer;
+}
+.navbar{
+    background-color:dodgerblue;
+    width:auto;
+    margin: 10px;
+    padding: 2px;
+}
+.navbar li{
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+     
+}
+.navbar li :hover{
+    color: black;
+
+}
+h1{
+    background-color: dodgerblue;
+    width: auto;
+    padding: 2px;
+    text-align: center;
+}
+input{
+    width: 700px;
+    float: right;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.title{
+    color: white;
+}
+.row{
+    transform: 2sc ;
+}
+.row.row:hover{
+    transform: scale;
+}
+.poster{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    color: aliceblue;
+
+   
+}
+.poster img{
+    transition: transform 1s;
+}
+.poster img:hover{
+    transform: scale(1.1 );
+}
